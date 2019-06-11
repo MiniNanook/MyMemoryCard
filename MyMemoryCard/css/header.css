@@ -1,0 +1,72 @@
+* { /*Esto hace que todo se quede bien pegado a los bordes*/
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #00d18e;
+    font-weight: 300;
+    padding: 20px;
+}
+
+.logo {
+    float: left;
+    height: 80px;
+}
+
+nav#left {
+    float: left;
+}
+
+nav#right {
+    float: right;
+    margin-right: 50px;
+}
+
+.header::after { /* Evita que perdamos el estilo del header */
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    /*float: left*/
+    display: inline-block; /*Allows text alignment*/
+    margin-left: 70px;
+    padding-top: 25px;
+    position: relative;
+}
+
+nav li a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+nav li a:hover {
+    color: #303e54;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+    bottom: -50px;
+    width: 0%; /*Starts as nothing*/
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%; /*Starts as nothing*/
+}
+

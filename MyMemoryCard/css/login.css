@@ -1,0 +1,229 @@
+/* Split the screen in half */
+
+.split {
+    text-align: center;
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.title {
+    width: 100%;
+    transform: translateY(300px);
+}
+  
+/* Control the left side */
+.left {
+    left: 0;
+    background: #00d18e;
+}
+  
+/* Control the right side */
+.right {
+    right: 0;
+    background-color: white;
+}
+
+/* Title Position*/
+
+.login {
+    transform: translateY(150px);
+    font: helvetica;
+    font-size: 30px;
+    left: 25%;
+    position: absolute;
+    z-index: 2;
+}
+
+body {
+    width:100%;
+}
+
+.register {
+    transform: translateY(150px);
+    font: helvetica;
+    left: 75%;
+    position: absolute;
+    z-index: 2;
+}
+
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+  
+/* Style the image inside the centered container, if needed */
+.centered img {
+    height: 80px;
+    border-radius: 50%;
+}
+
+body {
+    display: block;
+}
+
+/*Footer siempre abajo: body min-height como minimo el alto del viewport*/
+
+legend {
+    display: block;
+    padding-left: 2px;
+    padding-right: 2px;
+    border: none;
+    color: black;
+}
+
+header {
+    display: inline;
+    clear: both;
+}
+
+.header h1 {
+    transform: translateX(-40px);
+    font: helvetica;
+    font-size: 80px;
+    text-align: center;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: 2;
+}
+
+.header img {
+    transform: translate(-50%, -365px);
+    height: 150px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+}
+
+.footer h1 {
+    font: helvetica;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 600px;
+    z-index: 2;
+}
+
+.footer a {
+    color: black;
+}
+
+.title {
+    display: flexbox;   
+}
+
+img#centered-offline {
+    width: 200px;
+    height: 200px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    width:auto;
+    height : 350px;
+	min-height:150px;
+	padding-bottom: 10px;
+}
+
+.content-error {
+    text-align: center;
+    font-size: 50px;
+}
+
+table {
+    text-align: center;
+    width: 50%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.button-create{
+    border:none;
+    display:inline-block;
+    padding:8px 16px;
+    vertical-align:middle;
+    text-decoration:none;
+    color:inherit;
+    background-color: #FADBD8;
+    font-size: 18px;
+    text-align:center;
+    cursor:pointer;
+    white-space:nowrap
+}
+
+.button-create:hover{
+    color:#fff!important;
+    background-color:#CD5C5C!important;
+}
+
+#button-follow {
+    color: black;
+    background: #fff;
+    border: 2px solid #008cba;
+    border-radius: 6px;
+    color: #333333;
+    padding: 12px 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#button-follow:hover{
+    background-color: #008CBA; 
+    color: #f5f4f4; 
+    border: 2px solid #008CBA;
+    font-weight: bold;
+}
+
+.form-control {
+    display: block;
+    width: 90%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; 
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #5defe3;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 0.2rem rgba(18, 187, 173, 0.25);
+}
+.form-control::placeholder {
+    color: #6c757d;
+    opacity: 1; 
+}
+.form-control:disabled, .form-control[readonly] {
+    background-color: #e9ecef;
+    opacity: 1; 
+}
+
+a {
+    color: black;
+    /*text-decoration: none;*/
+}

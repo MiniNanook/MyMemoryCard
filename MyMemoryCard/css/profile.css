@@ -1,0 +1,69 @@
+.content .profile {
+    width: 100%;
+    height: 80%;
+    margin: 0;
+    padding-bottom: 100px;
+}
+
+.profile-left {
+    width: 25%;
+    height: 100%;
+    float: left;
+    border-collapse: collapse;
+}
+
+.profile-right {
+    width: 75%;
+    height: 100%;
+    position: relative;
+    float: right;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.profile-right #requests {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.profile-right #games {
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.profile-right #friends {
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.profile-right a {
+    color: black;
+}
+
+.profile-right a:hover {
+    border: none;
+    text-decoration: underline;
+    color: white;
+    background: black;
+}
+
+img.user {
+    width: 200px;
+    height: 250px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.messages.title {
+    margin-bottom: 50px;
+}
+
+.inline-buttons {
+    display: inline-flex;
+}
+
+.inline-buttons input {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 2px;
+}

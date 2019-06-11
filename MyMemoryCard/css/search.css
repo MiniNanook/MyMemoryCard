@@ -1,0 +1,79 @@
+/* Add a black background color to the top navigation bar */
+.content .search-bar {
+    overflow: hidden;
+}
+
+/* Style the search box inside the navigation bar */
+.content .search-bar input[type=text] {
+    padding: 6px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 20px;
+    outline: none;
+}
+
+.content .search-bar input[type=text]:hover {
+    
+}
+
+.content .search-bar#left {
+    width: 50%;
+    margin: auto;
+    float: left;
+}
+
+.content .search-bar#right {
+    width: 50%;
+    margin: auto;
+}
+
+/* Search Submit Button */
+.go {
+    float: center;
+    font-size: 20px;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.go:hover {
+    cursor: pointer;
+}
+
+.game { /*CSS Para la visualización de un juego tras una búsqueda*/
+    display: flex;
+    border: solid black 2px;
+    text-align: center;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.game #cover {
+    border: solid black 2px;
+    float: left;
+    width: 130px;
+    height: 200px;
+}
+
+.game .description {
+    float: right;
+    border: solid black 2px;
+    height: 200px;
+    width: 80%;
+}
+
+.game .description a {
+    color: black;
+}
+
+.other-search {
+    margin-top: 100px;
+}
+
+.other-search ul, li{
+    display: inline;
+}

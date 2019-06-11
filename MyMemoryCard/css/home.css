@@ -1,0 +1,23 @@
+img.home-game {
+    width: 24%;
+    height: 50%;
+    text-align: center;
+    margin-left: 38%;
+}
+
+img.home-user {
+    width: 180px;
+    height: 220px;
+    text-align: center;
+    margin-left: 34%;
+    margin-bottom: 10px;
+}
+
+.multiple-items {
+    margin-bottom: 100px;
+}
+
+.multiple-items a {
+    text-decoration: none;
+    color: black;
+}

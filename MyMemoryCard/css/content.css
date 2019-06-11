@@ -1,0 +1,159 @@
+.content {
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 200px;
+}
+
+.content .content-error {
+    text-align: center;
+    font-size: 50px;
+}
+
+.content table {
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content .button-create{
+    margin-top: 50px;
+    border:none;
+    display:inline-block;
+    padding:8px 16px;
+    vertical-align:middle;
+    text-decoration:none;
+    color:inherit;
+    background-color: #00d18e;
+    font-size: 18px;
+    text-align:center;
+    cursor:pointer;
+    white-space:nowrap
+}
+
+.content .button-create:hover{
+    color:#fff!important;
+    background-color:#1a7558!important
+}
+
+.home-title {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+p.center {
+    padding-top: 100px;
+}
+
+img.profile {
+    width: 10%;
+    height: 20%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.list-tags {
+    background-color: rgb(194, 194, 194);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.list-tags ul, .list-tags li, .list-tags a{
+    display: inline;
+    color: black;
+}
+
+.game-list-title {
+    margin-top: -20px;
+}
+
+th {
+    color:#00d18e;
+    background: black;
+}
+
+td {
+    height: 30px;
+}
+
+table a {
+    color: black;
+}
+
+table th a {
+    color:#00d18e;
+    text-decoration: none;
+}
+
+.search-title {
+    margin-top: -20px;
+    margin-bottom: 50px;
+}
+
+.review#title{
+    background-color: rgb(194, 194, 194);
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.review#text{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.message {
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.message #title {
+    background:  rgb(146, 146, 146);
+}
+
+.message #concept {
+    background:  rgb(194, 194, 194);
+}
+
+.message #text {
+    padding: 100px;
+    border: solid black 2px;
+}
+
+#admin-title {
+    margin-bottom: 100px;
+}
+
+#admin-search {
+    margin-bottom: 100px;
+}
+
+.logout {
+    margin-top: 50px;
+}
+
+.logout-button {
+    margin-left: 50px;
+    margin-right: 50px;
+	background-color:#d6d6d6;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+
+.logout-button:hover {
+	background-color:#000000;
+}
+
+.logout-button:active {
+	position:relative;
+	top:1px;
+}
